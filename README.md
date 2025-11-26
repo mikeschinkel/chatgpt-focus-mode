@@ -112,8 +112,3 @@ Feel free to adapt or extend the logic for your own workflows.
 ## License
 
 MIT License — free for personal and commercial use.
-
-
-```
-
----
