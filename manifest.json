@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Focus Mode — Collapse and Expand Chats",
+  "version": "1.0.0",
+  "description": "Collapse/expand ChatGPT chat messages individually or all at once.",
+  "permissions": [],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://*.openai.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://*.openai.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

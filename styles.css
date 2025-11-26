@@ -1,0 +1,17 @@
+/* Hide browser default disclosure triangle for our details */
+details.cgpt-article-details summary::marker {
+    content: '';
+}
+details.cgpt-article-details summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Our square +/- icon in the summary */
+.cgpt-summary-icon {
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    margin-right: 0.35em;
+    vertical-align: text-bottom;
+}
+
