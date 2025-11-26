@@ -40,10 +40,9 @@ The result: a cleaner, saner way to browse ChatGPT conversations.
 1. Download or clone the repository:
    ```bash
    git clone https://github.com/<your-user>/<your-repo>.git
-````
+   ```
 
 2. Open Chrome and visit:
-
    ```
    chrome://extensions/
    ```
